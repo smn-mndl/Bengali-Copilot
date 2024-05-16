@@ -1,0 +1,80 @@
+/* Card.css */
+
+.card {
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  // margin: 20px auto;
+  // border: 1px solid #ccc;
+  // border-radius: 5px;
+  // overflow: auto !important;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  // height: 200px !important;
+  // position: fixed;
+  // width: 40%;
+
+  .card-content {
+    padding: 20px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+    height: 32px;
+    outline: none;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    color: #161212;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(182, 172, 159);
+  }
+
+  .answer-display {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    color: #161212;
+  }
+
+  .question-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+  }
+
+  .close-icon {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin: 0 0 0 0;
+    color: rgb(182, 172, 159);
+  }
+
+  .close-icon:hover {
+    color: #161212;
+    background: none;
+  }
+}

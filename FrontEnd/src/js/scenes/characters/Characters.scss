@@ -1,0 +1,40 @@
+/* App.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  li{ 
+    list-style: none; 
+} 
+}
+
+.item {
+  padding: 10px;
+//   border: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.item-li:hover {
+  color: #1d70be;
+}
+.item::before {
+    content: '\25B6'; /* Unicode for right-pointing triangle */
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    transition: transform 0.3s ease; /* Add transition */
+  }
+  
+  .item.down::before {
+    transform: translateY(0%) rotate(90deg); /* Rotate 90 degrees */
+  }
+
+.inner-list {
+  margin-left: 20px;
+}
+
+.inner-item {
+  margin-bottom: 5px;
+}

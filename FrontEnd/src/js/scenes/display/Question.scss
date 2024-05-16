@@ -1,0 +1,35 @@
+.question-input {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .question-input h2 {
+    margin-top: 0;
+  }
+  
+  .question-input form {
+    display: flex;
+  }
+  
+  .question-input input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .question-input button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .question-input button:hover {
+    background-color: #0056b3;
+  }
+  

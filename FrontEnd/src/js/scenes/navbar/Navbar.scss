@@ -1,0 +1,201 @@
+.selected-tab {
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  height: 55px;
+  span {
+    // margin-top: 10px;
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      padding: 0 7px;
+      a {
+        text-decoration: none;
+        color: antiquewhite;
+        position: relative;
+        padding: 5px 0px;
+        width: 100%;
+      }
+
+      a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        // height: 2px;
+        border-bottom: 2px solid;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      a:hover:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+}
+.side-nav {
+  // position: absolute;
+  // top: 35px;
+  // right: 35px;
+  // border: 1px solid;
+  // padding: 10px 5px;
+  // background: antiquewhite;
+  // border-radius: 2px;
+  // z-index: 2;
+  position: absolute;
+    top: 51px;
+    left: 0px;
+
+    background: antiquewhite;
+    
+    z-index: 2;
+    height: calc(100vh - 92px);
+   
+    transition: all .3s ease-in-out;
+  li {
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.35em;
+    text-indent: 8px;
+    &:hover {
+      background: rgb(0 0 0 / 12%);
+    }
+    &:visited {
+      background: rgb(0 0 0 / 12%);
+    }
+    svg {
+      fill: black;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(51, 46, 41);
+      position: relative;
+      padding: 5px 0px;
+      margin-left: 20px;
+      width: 100%;
+      
+    }
+  }
+
+
+}
+
+.navbar-header {
+  // padding: 0 10px;
+  // height: 50px;
+  // background: antiquewhite;
+  // color: #161212;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // width: 100%;
+  // font-size: 30px;
+  // background: linear-gradient(180deg, antiquewhite 0%, rgb(182, 172, 159) 50%, antiquewhite 100%);
+    padding: 0 10px;
+    height: 50px;
+    background: antiquewhite;
+    color: #161212;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    background: linear-gradient(180deg, antiquewhite 0%, rgb(182, 172, 159) 50%, antiquewhite 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+  .navbar-name {
+    // margin-left: calc(50vw - 100px);
+        /* margin-left: calc(50vw - 50px); */
+        width: 202px;
+        position: absolute;
+        height: 50px;
+        /* line-height: 50px; */
+        left: 50%;
+        transform: translateX(-90px);
+        a {
+          all: unset;
+        }
+  }
+  .navbar-icon {
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+  }
+}
+.showToggleMenu{
+  width: 190px;
+  border-radius: 2px;
+  z-index: 9999;
+}
+.hideToggleMenu {
+  width: 0px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.user-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: antiquewhite; /* You can change the color here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.user-name {
+  font-size: 16px;
+}
+.user-profile-icon{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.dropdown-menu {
+  top: 100%;
+  // right: 0;
+  background-color: antiquewhite !important;
+  border: none !important;
+  list-style-type: none !important;
+  padding: 7px 0 !important;
+  list-style-type: none !important;
+  display: flex !important;
+  position: absolute !important;
+  right: 20px !important;
+  flex-direction: column !important;
+  top: 30px !important;
+  font-size: 20px !important;
+  cursor: pointer !important;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer !important;
+  div {
+    cursor: pointer !important;
+  }
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}

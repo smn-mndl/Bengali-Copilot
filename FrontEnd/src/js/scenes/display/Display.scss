@@ -1,0 +1,47 @@
+.display-page {
+  // padding: 20px;
+  display: flex;
+  //   height: 100%;
+  .keyword-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    gap: 20px;
+  }
+
+  .keyword-card {
+    color: #161212;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .keyword-card h2 {
+    margin-bottom: 10px;
+  }
+
+  .keyword-card ul {
+    padding-left: 20px;
+  }
+
+  .keyword-card li {
+    margin-bottom: 5px;
+  }
+  .left-section {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .left-section {
+    // background-color: #f2f2f2;
+    overflow-y: auto;
+  }
+
+  .right-section {
+    // background-color: #ffffff;
+    overflow-y: auto; /* Add scrollbars if needed */
+    position: fixed;
+    right: 40px;
+    width: 40%;
+  }
+}

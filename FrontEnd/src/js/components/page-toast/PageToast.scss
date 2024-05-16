@@ -1,0 +1,125 @@
+.toast-cntnr {
+  position: absolute;
+  padding: 15px;
+  background: white;
+  color: rgb(22, 21, 21);
+  border-radius: 4px;
+  min-width: 225px;
+  min-height: 32px;
+  font-size: 13px;
+  padding: 8px 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 500;
+  top: 16px;
+  left: calc(50vw - 112.5px);
+  z-index: 1010;
+  pointer-events: none;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  .toast-content {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+    .icon-cancel {
+      color: orangered;
+    }
+    .icon-error_outline {
+      color: #f0ad4e;
+    }
+    .icon-check_circle_outline {
+      color: #5cb85c;
+    }
+  }
+}
+
+@keyframes fadein {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 16px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    top: 16px;
+    opacity: 1;
+  }
+  to {
+    top: 0;
+    opacity: 0;
+  }
+}
+
+//new
+.ant-message {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: fixed;
+  top: 16px;
+  left: 0;
+  z-index: 1010;
+  width: 100%;
+  pointer-events: none;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  .icon-cancel {
+    color: orangered;
+    margin-right: 10px;
+  }
+  .icon-error_outline {
+    color: #f0ad4e;
+    margin-right: 10px;
+  }
+  .icon-check_circle_outline {
+    color: #5cb85c;
+    margin-right: 10px;
+  }
+}
+
+.ant-message-notice {
+  padding: 8px;
+  text-align: center;
+}
+
+.ant-message-notice-content {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #fff;
+  border-radius: 2px;
+  // box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  pointer-events: all;
+}
+
+.ant-message .anticon {
+  position: relative;
+  top: 1px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.ant-message-success .anticon {
+  color: #52c41a;
+}

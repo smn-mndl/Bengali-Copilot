@@ -1,0 +1,1 @@
+export const NAMED_ENTITY = 'গুরুত্বপূর্ণ শব্দাবলি'
