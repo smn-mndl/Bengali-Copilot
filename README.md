@@ -27,6 +27,6 @@ Bengali Copilot is a language understanding application developed using multiple
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Bengali-Copilot.git
+git clone https://github.com/smn-mndl/Bengali-Copilot.git
 
 
