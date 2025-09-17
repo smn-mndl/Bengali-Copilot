@@ -19,8 +19,14 @@ Bengali Copilot is a language understanding application developed using multiple
 ## For User Interface
 - User interface is created using ReactJS, HTML, CSS, JavaScript
 
+## Architecture
+<img width="437" height="236" alt="bengalicopilot_architecture" src="https://github.com/user-attachments/assets/7d66e346-efe9-400a-ad70-4d25da9f78a9" />
+
 ## Home Page
 ![BengaliCopilotHomePage2](https://github.com/smn-mndl/Bengali-Copilot/assets/45252675/7551eff9-5281-4d39-8ae5-486988216890)
+
+## Named Entity Recognition 
+![BengaliCopilotDisplay](https://github.com/user-attachments/assets/a6c16b1c-1c2e-408e-a5a3-a3e6c6cd8838)
 
 ## Installation
 
