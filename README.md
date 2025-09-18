@@ -28,6 +28,9 @@ Bengali Copilot is a language understanding application developed using multiple
 ## Named Entity Recognition 
 ![BengaliCopilotDisplay](https://github.com/user-attachments/assets/a6c16b1c-1c2e-408e-a5a3-a3e6c6cd8838)
 
+## Working Demo
+https://drive.google.com/file/d/1m9ox0mldMYazAP62I-wqIGv7wKuFdtZ8/view?usp=sharing
+
 ## Installation
 
 1. Clone the repository:
